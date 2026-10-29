@@ -1,4 +1,4 @@
-const BASE = '/api';
+const BASE = 'https://employee-management-hcnp.onrender.com/api';
 
 async function request(path, { method = 'GET', body } = {}) {
   const token = localStorage.getItem('token');
